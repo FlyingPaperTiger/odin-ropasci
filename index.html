@@ -8,9 +8,11 @@
 </head>
 <body>
     <div class="container">
-        <h1>Rock Paper Scissors</h1>
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
         
-        <section class="player">
+        <section class="player flex">
             <div class="cards">
                 <img src="rock.jpg" alt="Rock" id="rock" onclick="playGame('rock')">
                 <h3>rock</h3>
@@ -25,7 +27,7 @@
             </div>
         </section>
 
-        <section class="computer">
+        <section class="computer flex">
             <div class="cards">
                 <img src="rock.jpg" alt="Rock" id="rock" onclick="playGame('rock')">
                 <h3>rock</h3>
@@ -37,12 +39,6 @@
             <div class="cards">
                 <img src="scissors.jpg" alt="Scissors" id="scissors" onclick="playGame('scissors')">
                 <h3>scissors</h3>
-            </div>
-        </section>
-        <section class="computer">
-            <div class="cards">
-                <h3>Machine Choice</h3>
-                <img src="question.jpg" alt="Machine" id="machineChoice">
             </div>
         </section>
 
